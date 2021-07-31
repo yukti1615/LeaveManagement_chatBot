@@ -1,0 +1,25 @@
+Label	Weight	Text
+luis_yukti	1	ehi2999dilanld34
+luis_yukti	1	leaves view all
+luis_yukti	1	display status of all my leaves
+luis_yukti	1	i need my leave status
+luis_yukti	1	show sick leaves balance
+luis_yukti	1	i want sick leave for 2 days from 2021-09-04
+luis_yukti	1	token number 35fkwowqe20932
+luis_yukti	1	leaves delete
+luis_yukti	1	view leaves balance
+luis_yukti	1	leave status view all
+luis_yukti	1	token number hwhr002hkds12
+luis_yukti	1	i want sick leave for 2 days from next monday
+luis_yukti	1	view all my leaves
+luis_yukti	1	view status of all my leaves
+luis_yukti	1	i want to take a leave
+luis_yukti	1	show my earned leaves
+luis_yukti	1	delete leave
+luis_yukti	1	i want to recharge
+luis_yukti	1	show my casual leaves
+luis_yukti	1	ohf04fiwh44fe token
+luis_yukti	1	sick leave for 2 days from next monday
+qna_yukti	1	Light won't turn on.
+qna_yukti	1	I need help.
+qna_yukti	1	Question

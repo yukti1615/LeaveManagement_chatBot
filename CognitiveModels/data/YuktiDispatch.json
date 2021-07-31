@@ -1,0 +1,86 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "luis_yukti"
+    },
+    {
+      "name": "qna_yukti"
+    }
+  ],
+  "entities": [
+    {
+      "name": "leavesNumber",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "leaveType",
+      "subLists": [
+        {
+          "canonicalForm": "sick leave",
+          "list": [
+            "sick leaves",
+            "sick",
+            "not well"
+          ]
+        },
+        {
+          "canonicalForm": "casual leave",
+          "list": [
+            "casual leaves",
+            "casual"
+          ]
+        },
+        {
+          "canonicalForm": "earned leave",
+          "list": [
+            "earned leaves",
+            "earned"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [],
+  "utterances": [],
+  "versionId": "Dispatch",
+  "name": "YuktiDispatch",
+  "desc": "Dispatch model for YuktiDispatch",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "i want {leaveType} for {leavesNumber}",
+      "intent": "luis_yukti"
+    },
+    {
+      "pattern": "i want leave for {leavesNumber}",
+      "intent": "luis_yukti"
+    },
+    {
+      "pattern": "i want {leaveType} for {leavesNumber} from 2021-09-04",
+      "intent": "luis_yukti"
+    }
+  ],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    },
+    {
+      "name": "UseAllTrainingData",
+      "value": "true"
+    }
+  ]
+}

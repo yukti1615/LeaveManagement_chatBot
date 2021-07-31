@@ -1,0 +1,25 @@
+Label	Weight	Text
+luis_yukti	1	hbk57sxkl94s
+luis_yukti	1	want 3 days sick leave from friday
+luis_yukti	1	balance for all leaves
+luis_yukti	1	peurpnw359 token
+luis_yukti	1	i want to see my leave status
+luis_yukti	1	fhweo4028enfe delete leave
+luis_yukti	1	balance leave
+luis_yukti	1	i want sick leave from next for 3 days
+luis_yukti	1	show details of all the leaves
+luis_yukti	1	13232jsfjhifheoi23
+luis_yukti	1	4 days sick leave from next friday
+luis_yukti	1	delete my leave
+luis_yukti	1	show leave status
+luis_yukti	1	i want to apply for leave
+luis_yukti	1	token number 842sfoihn4323bilf
+luis_yukti	1	show my leaves
+luis_yukti	1	zjjx8w668v
+luis_yukti	1	i need sick leave for 3 days from 2021-09-08
+luis_yukti	1	hfssr49503nsks is token number
+luis_yukti	1	2 days i need casual leaves
+luis_yukti	1	i want to view my leave by token number ffb93bqldjs
+qna_yukti	1	Light doesn't work after upgrade.
+qna_yukti	1	Who should I contact for customer service
+qna_yukti	1	How do I contact support

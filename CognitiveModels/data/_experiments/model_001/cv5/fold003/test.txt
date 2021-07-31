@@ -1,0 +1,25 @@
+Label	Weight	Text
+luis_yukti	1	token number sfls34aldjs
+luis_yukti	1	show me application with token number teade353sd
+luis_yukti	1	recharge
+luis_yukti	1	fhepi302dss
+luis_yukti	1	leave status
+luis_yukti	1	i want sick leave for 2 days
+luis_yukti	1	sknf9320sfksbf is token number
+luis_yukti	1	what is status of leaves
+luis_yukti	1	delete
+luis_yukti	1	earned leaves
+luis_yukti	1	delete leave with token number kfhehoiw39840jfs
+luis_yukti	1	12810heh0sdifuwkh9203
+luis_yukti	1	left leaves
+luis_yukti	1	show all my leaves
+luis_yukti	1	leave application delete
+luis_yukti	1	show status of all leaves
+luis_yukti	1	view my leaves
+luis_yukti	1	leave status of kfksnrh5l43skd
+luis_yukti	1	i want to apply leave
+luis_yukti	1	delete tsd45jksk23n
+luis_yukti	1	view leave by token number fbsk489jfhskd
+qna_yukti	1	What type of light bulb do I need
+qna_yukti	1	Hi
+qna_yukti	1	My Contoso smart light won't turn on.

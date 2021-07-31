@@ -1,0 +1,790 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "luis_yukti"
+    },
+    {
+      "name": "qna_yukti"
+    }
+  ],
+  "entities": [
+    {
+      "name": "leavesNumber",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "leaveType",
+      "subLists": [
+        {
+          "canonicalForm": "sick leave",
+          "list": [
+            "sick leaves",
+            "sick",
+            "not well"
+          ]
+        },
+        {
+          "canonicalForm": "casual leave",
+          "list": [
+            "casual leaves",
+            "casual"
+          ]
+        },
+        {
+          "canonicalForm": "earned leave",
+          "list": [
+            "earned leaves",
+            "earned"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "hbk57sxkl94s",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "want 3 days sick leave from friday",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 5,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "balance for all leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "peurpnw359 token",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to see my leave status",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "fhweo4028enfe delete leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "balance leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want sick leave from next for 3 days",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 32,
+          "endPos": 37,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show details of all the leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "13232jsfjhifheoi23",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "4 days sick leave from next friday",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 0,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "delete my leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show leave status",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to apply for leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "token number 842sfoihn4323bilf",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "zjjx8w668v",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i need sick leave for 3 days from 2021-09-08",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "hfssr49503nsks is token number",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "2 days i need casual leaves",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 0,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i want to view my leave by token number ffb93bqldjs",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "ehi2999dilanld34",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leaves view all",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "display status of all my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i need my leave status",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show sick leaves balance",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want sick leave for 2 days from 2021-09-04",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "token number 35fkwowqe20932",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leaves delete",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view leaves balance",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leave status view all",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "token number hwhr002hkds12",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want sick leave for 2 days from next monday",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view all my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view status of all my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to take a leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show my earned leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "delete leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to recharge",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show my casual leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "ohf04fiwh44fe token",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "sick leave for 2 days from next monday",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 15,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "remove leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "2 days casual leave",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 0,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show earned balance",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "fehowu09840128bcd",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view balance of all leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "want 3 days sick leave from 2021-09-09",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 5,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show my leaves i want to delete my leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "status of all types of leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view all leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view casual leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "display leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "diplay leaves for delete",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "balance of leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leave balance",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "delete application",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view sick leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leaves left view",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "delete my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "token number fj3pue2301fkjh0 delete leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "1mdikrqheew",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "sick leave for 3 days",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 15,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "token number sfls34aldjs",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show me application with token number teade353sd",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "recharge",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "fhepi302dss",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leave status",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want sick leave for 2 days",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "sknf9320sfksbf is token number",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "what is status of leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "delete",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "earned leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "delete leave with token number kfhehoiw39840jfs",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "12810heh0sdifuwkh9203",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "left leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show all my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leave application delete",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show status of all leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leave status of kfksnrh5l43skd",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to apply leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "delete tsd45jksk23n",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view leave by token number fbsk489jfhskd",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to see all of my applications",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "vdfkjdn343knds",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want sick leave for 12 days",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 28,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "casual leave for 2 days",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 17,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "leaves status of all leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "need 4 days casual leaves from friday",
+      "intent": "luis_yukti",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 5,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "cancel applied leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "leave status display all",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "token number is this bfiw304830fss",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "all leaves balance",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to see my leave details",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "jfgfu68685vfdzes54",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show me leave with token 23flsjfnd45",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i need leave details",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show leave details",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show all leave balance",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to view my leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "fwhr340bjkane leave status",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show all leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "show leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "i want to request leave",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "delete leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "view earned leaves",
+      "intent": "luis_yukti",
+      "entities": []
+    },
+    {
+      "text": "light doesn't work after upgrade.",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "who should i contact for customer service",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "how do i contact support",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "light won't turn on.",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "i need help.",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "question",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "ssup",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "my smart light app stopped responding.",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "why does the light not work",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "what type of light bulb do i need",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "my contoso smart light won't turn on.",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "how long does the light's battery last for",
+      "intent": "qna_yukti",
+      "entities": []
+    },
+    {
+      "text": "i upgraded the app and it doesn't work anymore.",
+      "intent": "qna_yukti",
+      "entities": []
+    }
+  ],
+  "versionId": "Dispatch",
+  "name": "YuktiDispatch",
+  "desc": "Dispatch model for YuktiDispatch",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "i want {leaveType} for {leavesNumber}",
+      "intent": "luis_yukti"
+    },
+    {
+      "pattern": "i want leave for {leavesNumber}",
+      "intent": "luis_yukti"
+    },
+    {
+      "pattern": "i want {leaveType} for {leavesNumber} from 2021-09-04",
+      "intent": "luis_yukti"
+    }
+  ],
+  "settings": [
+    {
+      "name": "NormalizeDiacritics",
+      "value": "true"
+    },
+    {
+      "name": "UseAllTrainingData",
+      "value": "true"
+    }
+  ]
+}

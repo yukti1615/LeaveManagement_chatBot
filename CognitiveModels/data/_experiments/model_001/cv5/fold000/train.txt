@@ -1,0 +1,98 @@
+Label	Weight	Text
+luis_yukti	1	ehi2999dilanld34
+luis_yukti	1	leaves view all
+luis_yukti	1	display status of all my leaves
+luis_yukti	1	i need my leave status
+luis_yukti	1	show sick leaves balance
+luis_yukti	1	i want sick leave for 2 days from 2021-09-04
+luis_yukti	1	token number 35fkwowqe20932
+luis_yukti	1	leaves delete
+luis_yukti	1	view leaves balance
+luis_yukti	1	leave status view all
+luis_yukti	1	token number hwhr002hkds12
+luis_yukti	1	i want sick leave for 2 days from next monday
+luis_yukti	1	view all my leaves
+luis_yukti	1	view status of all my leaves
+luis_yukti	1	i want to take a leave
+luis_yukti	1	show my earned leaves
+luis_yukti	1	delete leave
+luis_yukti	1	i want to recharge
+luis_yukti	1	show my casual leaves
+luis_yukti	1	ohf04fiwh44fe token
+luis_yukti	1	sick leave for 2 days from next monday
+luis_yukti	1	remove leave
+luis_yukti	1	2 days casual leave
+luis_yukti	1	show earned balance
+luis_yukti	1	fehowu09840128bcd
+luis_yukti	1	view balance of all leaves
+luis_yukti	1	want 3 days sick leave from 2021-09-09
+luis_yukti	1	show my leaves i want to delete my leave
+luis_yukti	1	status of all types of leaves
+luis_yukti	1	view all leaves
+luis_yukti	1	view casual leaves
+luis_yukti	1	display leaves
+luis_yukti	1	diplay leaves for delete
+luis_yukti	1	balance of leaves
+luis_yukti	1	leave balance
+luis_yukti	1	delete application
+luis_yukti	1	view sick leaves
+luis_yukti	1	leaves left view
+luis_yukti	1	delete my leaves
+luis_yukti	1	token number fj3pue2301fkjh0 delete leave
+luis_yukti	1	1mdikrqheew
+luis_yukti	1	sick leave for 3 days
+luis_yukti	1	token number sfls34aldjs
+luis_yukti	1	show me application with token number teade353sd
+luis_yukti	1	recharge
+luis_yukti	1	fhepi302dss
+luis_yukti	1	leave status
+luis_yukti	1	i want sick leave for 2 days
+luis_yukti	1	sknf9320sfksbf is token number
+luis_yukti	1	what is status of leaves
+luis_yukti	1	delete
+luis_yukti	1	earned leaves
+luis_yukti	1	delete leave with token number kfhehoiw39840jfs
+luis_yukti	1	12810heh0sdifuwkh9203
+luis_yukti	1	left leaves
+luis_yukti	1	show all my leaves
+luis_yukti	1	leave application delete
+luis_yukti	1	show status of all leaves
+luis_yukti	1	view my leaves
+luis_yukti	1	leave status of kfksnrh5l43skd
+luis_yukti	1	i want to apply leave
+luis_yukti	1	delete tsd45jksk23n
+luis_yukti	1	view leave by token number fbsk489jfhskd
+luis_yukti	1	i want to see all of my applications
+luis_yukti	1	vdfkjdn343knds
+luis_yukti	1	i want sick leave for 12 days
+luis_yukti	1	casual leave for 2 days
+luis_yukti	1	leaves status of all leaves
+luis_yukti	1	need 4 days casual leaves from friday
+luis_yukti	1	cancel applied leave
+luis_yukti	1	leave status display all
+luis_yukti	1	token number is this bfiw304830fss
+luis_yukti	1	all leaves balance
+luis_yukti	1	i want to see my leave details
+luis_yukti	1	jfgfu68685vfdzes54
+luis_yukti	1	show me leave with token 23flsjfnd45
+luis_yukti	1	i need leave details
+luis_yukti	1	show leave details
+luis_yukti	1	show all leave balance
+luis_yukti	1	i want to view my leaves
+luis_yukti	1	fwhr340bjkane leave status
+luis_yukti	1	show all leaves
+luis_yukti	1	show leaves
+luis_yukti	1	i want to request leave
+luis_yukti	1	delete leaves
+luis_yukti	1	view earned leaves
+qna_yukti	1	Light won't turn on.
+qna_yukti	1	I need help.
+qna_yukti	1	Question
+qna_yukti	1	ssup
+qna_yukti	1	My smart light app stopped responding.
+qna_yukti	1	Why does the light not work
+qna_yukti	1	What type of light bulb do I need
+qna_yukti	1	Hi
+qna_yukti	1	My Contoso smart light won't turn on.
+qna_yukti	1	How long does the light's battery last for
+qna_yukti	1	I upgraded the app and it doesn't work anymore.

@@ -1,0 +1,942 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "deleteLeave",
+      "features": []
+    },
+    {
+      "name": "leaveBalance",
+      "features": []
+    },
+    {
+      "name": "leaveStatus",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "recharge",
+      "features": []
+    },
+    {
+      "name": "requestLeave",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "leaveReason",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "leavesNumber",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "tokenNum",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "leaveType",
+      "subLists": [
+        {
+          "canonicalForm": "sick leave",
+          "list": [
+            "sick leaves",
+            "sick",
+            "not well"
+          ]
+        },
+        {
+          "canonicalForm": "casual leave",
+          "list": [
+            "casual leaves",
+            "casual"
+          ]
+        },
+        {
+          "canonicalForm": "earned leave",
+          "list": [
+            "earned leaves",
+            "earned"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    }
+  ],
+  "utterances": [
+    {
+      "text": "12810heh0sdifuwkh9203",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "13232jsfjhifheoi23",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "1mdikrqheew",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "2 days casual leave",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 0,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "2 days i need casual leaves",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 0,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "4 days sick leave from next friday",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 0,
+          "endPos": 5,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "all leaves balance",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "balance for all leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "balance leave",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "balance of leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "cancel applied leave",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "casual leave for 2 days",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 17,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "delete",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "delete application",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "delete leave",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "delete leave with token number kfhehoiw39840jfs",
+      "intent": "deleteLeave",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 31,
+          "endPos": 46,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "delete leaves",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "delete my leave",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "delete my leaves",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "delete tsd45jksk23n",
+      "intent": "deleteLeave",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 7,
+          "endPos": 18,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "diplay leaves for delete",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "display leaves",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "display status of all my leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "earned leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "ehi2999dilanld34",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 15,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "fehowu09840128bcd",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "fhepi302dss",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "fhweo4028enfe delete leave",
+      "intent": "deleteLeave",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 12,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "fwhr340bjkane leave status",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 12,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "hbk57sxkl94s",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "hfssr49503nsks is token number",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 13,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i need leave details",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "i need my leave status",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "i need sick leave for 3 days from 2021-09-08",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i want sick leave for 12 days",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 28,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i want sick leave for 2 days",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i want sick leave for 2 days from 2021-09-04",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 22,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i want sick leave for 2 days from next monday",
+      "intent": "requestLeave",
+      "entities": []
+    },
+    {
+      "text": "i want sick leave from next for 3 days",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 32,
+          "endPos": 37,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i want to apply for leave",
+      "intent": "requestLeave",
+      "entities": []
+    },
+    {
+      "text": "i want to apply leave",
+      "intent": "requestLeave",
+      "entities": []
+    },
+    {
+      "text": "i want to recharge",
+      "intent": "recharge",
+      "entities": []
+    },
+    {
+      "text": "i want to request leave",
+      "intent": "requestLeave",
+      "entities": []
+    },
+    {
+      "text": "i want to see all of my applications",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "i want to see my leave details",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "i want to see my leave status",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "i want to take a leave",
+      "intent": "requestLeave",
+      "entities": []
+    },
+    {
+      "text": "i want to view my leave by token number ffb93bqldjs",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 40,
+          "endPos": 50,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "i want to view my leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "jfgfu68685vfdzes54",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "leave application delete",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "leave balance",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "leave status",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "leave status display all",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "leave status of kfksnrh5l43skd",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 16,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "leave status view all",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "leaves delete",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "leaves left view",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "leaves status of all leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "leaves view all",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "left leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "need 4 days casual leaves from friday",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 5,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "ohf04fiwh44fe token",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 12,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "peurpnw359 token",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 9,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "recharge",
+      "intent": "recharge",
+      "entities": []
+    },
+    {
+      "text": "remove leave",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "show all leave balance",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "show all leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "show all my leaves",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "show details of all the leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "show earned balance",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "show leave details",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "show leave status",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "show leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "show me application with token number teade353sd",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 38,
+          "endPos": 47,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show me leave with token 23flsjfnd45",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 25,
+          "endPos": 35,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show my casual leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "show my earned leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "show my leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "show my leaves i want to delete my leave",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "show sick leaves balance",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "show status of all leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "sick leave for 2 days from next monday",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 15,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "sick leave for 3 days",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 15,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "sknf9320sfksbf is token number",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 13,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "status of all types of leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "token number 35fkwowqe20932",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 13,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "token number 842sfoihn4323bilf",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 13,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "token number fj3pue2301fkjh0 delete leave",
+      "intent": "deleteLeave",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 13,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "token number hwhr002hkds12",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 13,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "token number is this bfiw304830fss",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 21,
+          "endPos": 33,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "token number sfls34aldjs",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 13,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "vdfkjdn343knds",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 13,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "view all leaves",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "view all my leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "view balance of all leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "view casual leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "view earned leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "view leave by token number fbsk489jfhskd",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 27,
+          "endPos": 39,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "view leaves balance",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "view my leaves",
+      "intent": "deleteLeave",
+      "entities": []
+    },
+    {
+      "text": "view sick leaves",
+      "intent": "leaveBalance",
+      "entities": []
+    },
+    {
+      "text": "view status of all my leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "want 3 days sick leave from 2021-09-09",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 5,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "want 3 days sick leave from friday",
+      "intent": "requestLeave",
+      "entities": [
+        {
+          "entity": "leavesNumber",
+          "startPos": 5,
+          "endPos": 10,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is status of leaves",
+      "intent": "leaveStatus",
+      "entities": []
+    },
+    {
+      "text": "zjjx8w668v",
+      "intent": "leaveStatus",
+      "entities": [
+        {
+          "entity": "tokenNum",
+          "startPos": 0,
+          "endPos": 9,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "versionId": "0.1",
+  "name": "Yukti_LeaveManagement",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [
+    {
+      "pattern": "i want {leaveType} for {leavesNumber}",
+      "intent": "requestLeave"
+    },
+    {
+      "pattern": "i want leave for {leavesNumber}",
+      "intent": "requestLeave"
+    },
+    {
+      "pattern": "i want {leaveType} for {leavesNumber} from 2021-09-04",
+      "intent": "requestLeave"
+    }
+  ],
+  "settings": []
+}

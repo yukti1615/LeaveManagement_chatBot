@@ -1,0 +1,25 @@
+Label	Weight	Text
+luis_yukti	1	i want to see all of my applications
+luis_yukti	1	vdfkjdn343knds
+luis_yukti	1	i want sick leave for 12 days
+luis_yukti	1	casual leave for 2 days
+luis_yukti	1	leaves status of all leaves
+luis_yukti	1	need 4 days casual leaves from friday
+luis_yukti	1	cancel applied leave
+luis_yukti	1	leave status display all
+luis_yukti	1	token number is this bfiw304830fss
+luis_yukti	1	all leaves balance
+luis_yukti	1	i want to see my leave details
+luis_yukti	1	jfgfu68685vfdzes54
+luis_yukti	1	show me leave with token 23flsjfnd45
+luis_yukti	1	i need leave details
+luis_yukti	1	show leave details
+luis_yukti	1	show all leave balance
+luis_yukti	1	i want to view my leaves
+luis_yukti	1	fwhr340bjkane leave status
+luis_yukti	1	show all leaves
+luis_yukti	1	show leaves
+luis_yukti	1	i want to request leave
+qna_yukti	1	My Contoso smart light won't turn on.
+qna_yukti	1	How long does the light's battery last for
+qna_yukti	1	I upgraded the app and it doesn't work anymore.

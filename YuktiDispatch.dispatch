@@ -1,0 +1,39 @@
+{
+  "authoringRegion": "westus",
+  "hierarchical": true,
+  "useAllTrainingData": true,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "luis_yukti",
+      "appId": "87f4425f-eb3b-4e08-bd2f-5d3ac49859fa",
+      "authoringKey": "7dba0b10cb3440b88cfead2f7b1c15e0",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "Yukti_LeaveManagement",
+      "id": "1"
+    },
+    {
+      "intentName": "qna_yukti",
+      "includePrompts": true,
+      "kbId": "799d7881-8f8d-4cd2-8ea3-05024fa503d2",
+      "subscriptionKey": "0dee76f49f1f4fc3aab203528ef02a01",
+      "type": "qna",
+      "name": "Yukti_Bot",
+      "id": "2"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2"
+  ],
+  "appId": "2be25437-0e36-4f85-a89a-935a945a22a4",
+  "authoringKey": "7dba0b10cb3440b88cfead2f7b1c15e0",
+  "version": "Dispatch",
+  "region": "westus",
+  "type": "dispatch",
+  "name": "YuktiDispatch"
+}
